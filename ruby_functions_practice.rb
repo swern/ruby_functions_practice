@@ -79,8 +79,9 @@ def length_of_cube_side(length)
 end
 
 
-
-
+def sphere_volume(radius)
+  return Math::PI*(4/3.0)*(radius ** 3)
+end
 
 
 

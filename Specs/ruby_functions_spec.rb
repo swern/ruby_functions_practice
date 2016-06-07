@@ -74,6 +74,10 @@ def test_cube_volume()
 end
   # end
 
+def test_sphere_volume()
+  sphere_volume = sphere_volume( 3 )
+  assert_equal(113.09733552923254, sphere_volume)
+end
   # #Given the radius of a sphere calculate the volume
   # def test_volume_of_sphere()
 
